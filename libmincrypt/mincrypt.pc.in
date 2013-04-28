@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: mincrypt
+Description: Android SHA and RSA library
+URL: https://android.googlesource.com/platform/system/core
+Version: @VERSION@
+Requires:
+Libs: -L${libdir} -lmincrypt
+Cflags: -I${includedir}
